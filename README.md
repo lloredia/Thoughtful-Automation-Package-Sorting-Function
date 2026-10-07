@@ -129,7 +129,7 @@ pre-commit install
 pre-commit run --all-files
 ```
 
-Continuous integration runs the same lint, type check, and test commands on Python 3.11, 3.12, and 3.13 for every push and pull request. The 3.13 job writes a coverage summary on the workflow run.
+Continuous integration runs the same lint, type check, and test commands on Python 3.11, 3.12, and 3.13 for pull requests and for pushes to `main`. The 3.13 job writes a coverage summary on the workflow run.
 
 ## Design notes
 
